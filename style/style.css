@@ -1,0 +1,65 @@
+/* Bg-color */
+.my_bg-whitesmoke{
+    background-color: #f8f9fa;
+}
+
+.my_bg-gainsboro{
+    background-color: #e5e5e5;
+}
+
+.my_bg-darkblue{
+    background-color: #051e34;
+}
+
+.my_bg-royalblue{
+    background-color: #1b72e8;
+}
+
+.my_bg-lightgrey{
+    background-color: #f7f7f7;
+}
+
+.my_bg-seagreen{
+    background-color: #238c5b;
+}
+
+.my_bg-gold{
+    background-color: #ffc107;
+}
+
+.my_bg-crimson{
+    background-color: #dc3545;
+}
+
+/* color */
+.my_color-darkorange{
+    color: #ff8f00;
+}
+
+.my_color-royalblue{
+    color: #1b72e8;
+}
+
+/* specific characteristic */
+#browser{
+    height: 50px;
+}
+
+#logo-small{
+    width: 40px;
+}
+
+#logo-big{
+    height: 30px;
+}
+
+#search-bar{
+    width: 90%
+}
+
+#nav-bar{
+    margin-top: 50px;
+    height: 100vh;
+    width: 50px;
+    background-image: url(../img/sidebar-bg.png);
+}
