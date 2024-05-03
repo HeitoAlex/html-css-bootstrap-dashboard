@@ -63,3 +63,13 @@
     width: 50px;
     background-image: url(../img/sidebar-bg.png);
 }
+
+#nav-bar i{
+    width: 18px;
+}
+
+@media screen and (min-width: 992px) {
+    #nav-bar{
+        width: 100px;
+    }
+}
