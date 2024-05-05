@@ -21,7 +21,7 @@
 </head>
 <body>
     <header>
-        <section id="browser" class="my_bg-whitesmoke d-flex align-items-center">
+        <section id="browser" class="my_bg-whitesmoke d-flex align-items-center position-fixed start-0 end-0 z-1">
             <div class="bg-white d-flex align-items-center container-fluid justify-content-between px-1">
                 <div >
                     <img src="./img/mobile-logo.png" id="logo-small" class="img-fluid d-lg-none" alt="logo-small">
@@ -42,7 +42,7 @@
     </header>
 
     <main class="d-flex">
-        <section id="nav-bar" class="my_bg-darkblue d-flex flex-column justify-content-between text-white">
+        <section id="nav-bar" class="my_bg-darkblue d-flex flex-column justify-content-between text-white position-fixed top-0">
             <div class="d-flex flex-column justify-content-between p-3">
                 <div class="d-flex align-items-center mb-2">
                     <i class="fa-solid fa-house me-2 "></i>
@@ -164,15 +164,15 @@
             <div id="bottom-main" class="py-3 px-2">
                 <div class="container-fluid">
                     <div class="row">
-                        <div class="card p-0 mb-4 col-12">
+                        <div class="card p-0 mb-4 col-12 col-lg-8 order-lg-0">
                             <div class="card-header">
                                 Prossime classi
                             </div>
                             <div class="p-3">
-                                <table class="table p-2">
+                                <table class="table p-2 table-hover">
                                     <thead>
                                         <tr>
-                                            <th scope="col" class="fw-normal table-active">Nome</th>
+                                            <th scope="col" class="fw-normal">Nome</th>
                                             <th scope="col" class="text-center fw-normal">Data inizio</th>
                                             <th scope="col" class="text-center fw-normal">ROI</th>
                                             <th scope="col" class="text-center fw-normal">Stato</th>
@@ -181,7 +181,7 @@
                                     </thead>
                                     <tbody>
                                         <tr>
-                                            <th scope="row" class="fw-normal table-active">
+                                            <th scope="row" class="fw-normal">
                                                 <img src="./img/class-avatar.jpg"
                                                 class="class-avatar fw-normal" alt="class-avatar">
                                                 Classe 75
@@ -196,11 +196,123 @@
                                                 <span class="border border-2 rounded p-2"><i class="fa-solid fa-trash"></i></span>
                                             </td>
                                         </tr>
+                                        <tr>
+                                            <th scope="row" class="fw-normal">
+                                                <img src="./img/class-avatar.jpg"
+                                                class="class-avatar fw-normal" alt="class-avatar">
+                                                Classe 76
+                                            </th>
+                                            <td class="text-center">16 Febbraio 2021</td>
+                                            <td class="text-center">20%</td>
+                                            <td class="text-center align-middle">
+                                                <span class="my_bg-seagreen rounded px-2">Done</span>
+                                            </td>
+                                            <td class="text-center align-middle"> 
+                                                <span class="border border-2 rounded p-2"><i class="fa-solid fa-pencil"></i></span>
+                                                <span class="border border-2 rounded p-2"><i class="fa-solid fa-trash"></i></span>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row" class="fw-normal">
+                                                <img src="./img/class-avatar.jpg"
+                                                class="class-avatar fw-normal" alt="class-avatar">
+                                                Classe 77
+                                            </th>
+                                            <td class="text-center">17 Febbraio 2021</td>
+                                            <td class="text-center">20%</td>
+                                            <td class="text-center align-middle">
+                                                <span class="my_bg-gold rounded px-2">Process</span>
+                                            </td>
+                                            <td class="text-center align-middle"> 
+                                                <span class="border border-2 rounded p-2"><i class="fa-solid fa-pencil"></i></span>
+                                                <span class="border border-2 rounded p-2"><i class="fa-solid fa-trash"></i></span>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row" class="fw-normal">
+                                                <img src="./img/class-avatar.jpg"
+                                                class="class-avatar fw-normal" alt="class-avatar">
+                                                Classe 78
+                                            </th>
+                                            <td class="text-center">18 Febbraio 2021</td>
+                                            <td class="text-center">20%</td>
+                                            <td class="text-center align-middle">
+                                                <span class="my_bg-seagreen rounded px-2">Done</span>
+                                            </td>
+                                            <td class="text-center align-middle"> 
+                                                <span class="border border-2 rounded p-2"><i class="fa-solid fa-pencil"></i></span>
+                                                <span class="border border-2 rounded p-2"><i class="fa-solid fa-trash"></i></span>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row" class="fw-normal">
+                                                <img src="./img/class-avatar.jpg"
+                                                class="class-avatar fw-normal" alt="class-avatar">
+                                                Classe 79
+                                            </th>
+                                            <td class="text-center">19 Febbraio 2021</td>
+                                            <td class="text-center">20%</td>
+                                            <td class="text-center align-middle">
+                                                <span class="my_bg-crimson rounded px-2">Failed</span>
+                                            </td>
+                                            <td class="text-center align-middle"> 
+                                                <span class="border border-2 rounded p-2"><i class="fa-solid fa-pencil"></i></span>
+                                                <span class="border border-2 rounded p-2"><i class="fa-solid fa-trash"></i></span>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row" class="fw-normal">
+                                                <img src="./img/class-avatar.jpg"
+                                                class="class-avatar fw-normal" alt="class-avatar">
+                                                Classe 80
+                                            </th>
+                                            <td class="text-center">20 Febbraio 2021</td>
+                                            <td class="text-center">20%</td>
+                                            <td class="text-center align-middle">
+                                                <span class="my_bg-seagreen rounded px-2">Done</span>
+                                            </td>
+                                            <td class="text-center align-middle"> 
+                                                <span class="border border-2 rounded p-2"><i class="fa-solid fa-pencil"></i></span>
+                                                <span class="border border-2 rounded p-2"><i class="fa-solid fa-trash"></i></span>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row" class="fw-normal">
+                                                <img src="./img/class-avatar.jpg"
+                                                class="class-avatar fw-normal" alt="class-avatar">
+                                                Classe 81
+                                            </th>
+                                            <td class="text-center">21 Febbraio 2021</td>
+                                            <td class="text-center">20%</td>
+                                            <td class="text-center align-middle">
+                                                <span class="my_bg-crimson rounded px-2">Failed</span>
+                                            </td>
+                                            <td class="text-center align-middle"> 
+                                                <span class="border border-2 rounded p-2"><i class="fa-solid fa-pencil"></i></span>
+                                                <span class="border border-2 rounded p-2"><i class="fa-solid fa-trash"></i></span>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row" class="fw-normal">
+                                                <img src="./img/class-avatar.jpg"
+                                                class="class-avatar fw-normal" alt="class-avatar">
+                                                Classe 82
+                                            </th>
+                                            <td class="text-center">22 Febbraio 2021</td>
+                                            <td class="text-center">20%</td>
+                                            <td class="text-center align-middle">
+                                                <span class="my_bg-seagreen rounded px-2">Done</span>
+                                            </td>
+                                            <td class="text-center align-middle"> 
+                                                <span class="border border-2 rounded p-2"><i class="fa-solid fa-pencil"></i></span>
+                                                <span class="border border-2 rounded p-2"><i class="fa-solid fa-trash"></i></span>
+                                            </td>
+                                        </tr>
                                     </tbody>
                                 </table>
                             </div>
                         </div>
-                        <div class="card p-0 mb-4 col-12">
+                        <div class="card p-0 mb-4 col-12 col-lg-8 order-lg-2">
                             <div class="card-header">F.A.Q.</div>
                             <div class="accordion accordion-flush m-3" id="accordionFlushExample">
                                 <div class="accordion-item">
@@ -237,7 +349,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="card p-0 mb-4 col-12">
+                        <div class="card p-0 mb-4 col-12 col-lg-4 order-lg-1">
                             <div class="card-header">TODO</div>
                             <div class="card m-2">
                                 <ul class="list-group list-group-flush">
@@ -253,7 +365,7 @@
                                 </ul>
                             </div>
                         </div>
-                        <div class="card p-2 mb-4 col-12">
+                        <div class="card p-2 mb-4 col-12 col-lg-4 order-lg-3">
                             <div class="card">
                                 <img src="./img/stats.jpeg" class="card-img-top" alt="grafico">
                                 <div class="card-body">
