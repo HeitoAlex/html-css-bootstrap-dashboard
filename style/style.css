@@ -29,14 +29,17 @@ body{
 
 .my_bg-seagreen{
     background-color: #238c5b;
+    color: white;
 }
 
 .my_bg-gold{
     background-color: #ffc107;
+    color: white;
 }
 
 .my_bg-crimson{
     background-color: #dc3545;
+    color: white;
 }
 
 /* color */
@@ -53,7 +56,8 @@ body{
     height: 50px;
 }
 
-#logo-small{
+#logo-small,
+.class-avatar{
     width: 40px;
 }
 
@@ -78,6 +82,11 @@ body{
 #top-main,
 #bottom-main{
     width: calc(100vw - 50px);
+}
+
+td i{
+    width: 15px;
+    height: 15px;
 }
 
 @media screen and (min-width: 992px) {
