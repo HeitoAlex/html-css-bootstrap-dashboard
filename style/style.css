@@ -78,27 +78,37 @@ body{
 
 #nav-bar .my_menu:hover{
     background-color: grey;
+    cursor: pointer;
 }
 
 #nav-bar i{
     width: 18px;
 }
 
-#top-main,
-#bottom-main{
+#top-main{
     width: calc(100vw - 50px);
     margin-top: 50px;
+}
+
+#top-main,
+#bottom-main{
     margin-left: 50px;
 }
 
 .my_button:hover{
     background-color: white;
     color: black;
+    
 }
 
 td i{
     width: 15px;
     height: 15px;
+}
+
+td,
+.my_table{
+    width: 120px;
 }
 
 @media screen and (min-width: 992px) {
@@ -115,7 +125,7 @@ td i{
 }
 
 
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 767px) {
     th:nth-child(2),
     th:nth-child(3){
         display: none;

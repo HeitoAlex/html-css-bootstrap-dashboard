@@ -52,22 +52,22 @@
 
     <main class="d-flex">
         <section id="nav-bar" class="my_bg-darkblue d-flex flex-column justify-content-between text-white position-fixed top-0">
-            <div class="d-flex flex-column p-3">
-                <div class="my_menu d-flex align-items-center mb-2">
+            <div class="d-flex flex-column px-2 py-3">
+                <div class="my_menu d-flex align-items-center mb-2 p-1">
                     <i class="fa-solid fa-house me-2 "></i>
                     <span class="my-auto d-none d-lg-block">Home</span>
                 </div>
-                <div class="my_menu d-flex align-items-center mb-2">
+                <div class="my_menu d-flex align-items-center mb-2 p-1">
                     <i class="fa-solid fa-chart-simple me-2"></i>
                     <span class="my-auto d-none d-lg-block">Stats</span>
                 </div>
-                <div class="my_menu d-flex align-items-center mb-2">
+                <div class="my_menu d-flex align-items-center mb-2 p-1">
                     <i class="fa-solid fa-signal me-2"></i>
                     <span class="my-auto d-none d-lg-block">Signal</span>
                 </div>
             </div>
-            <div class="p-3">
-                <div class="my_menu d-flex align-items-center mb-2">
+            <div class="px-2 py-3">
+                <div class="my_menu d-flex align-items-center mb-2 p-1">
                     <i class="fa-solid fa-gear me-2"></i>
                     <p class="my-auto d-none d-lg-block">Admin</p>
                 </div>
@@ -77,7 +77,7 @@
             <div id="top-main" class="my_bg-royalblue text-white py-4">
                 <div class="container-fluid mx-0">
                     <div class="row">
-                        <div class="col-12 mb-3 col-md-4 col-lg-2 order-md-1">
+                        <div class="col-12 mb-3 col-md-3 col-lg-2 order-md-1 pe-0">
                             <span class="me-3">Nuovo studente</span>
                             <button class="btn btn-primary border my_button" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">+</button>
                             <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
@@ -147,7 +147,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-12 col-md-4 col-lg-6 mb-3">
+                        <div class="col-12 col-md-4 col-lg-6 mb-3 pe-0">
                             <div class="d-flex align-items-center">
                                 <h1 class="me-2">Boolean</h1>
                                 <span class="my_bg-blue rounded-pill px-2">Piano blaze</span>
@@ -161,7 +161,7 @@
                                 <span class="my_bg-blue rounded-pill px-2 d-none d-xl-block me-1">Boolean blog app</span>
                             </div>
                         </div>
-                        <div class="col-12 col-md-4 col-lg-4 mb-3">
+                        <div class="col-12 col-md-4 col-lg-4 mb-3 pe-0">
                             <div>
                                 <p class="m-0">Studenti online negli ultimi 30 minuti</p>
                             </div>
@@ -185,10 +185,10 @@
                                         <thead>
                                             <tr>
                                                 <th scope="col" class="fw-normal">Nome</th>
-                                                <th scope="col" class="text-center fw-normal">Data inizio</th>
-                                                <th scope="col" class="text-center fw-normal">ROI</th>
-                                                <th scope="col" class="text-center fw-normal">Stato</th>
-                                                <th scope="col" class="text-center fw-normal">Azioni</th>
+                                                <th scope="col" class="text-center fw-normal my_table">Data inizio</th>
+                                                <th scope="col" class="text-center fw-normal my_table">ROI</th>
+                                                <th scope="col" class="text-center fw-normal my_table">Stato</th>
+                                                <th scope="col" class="text-center fw-normal my_table">Azioni</th>
                                             </tr>
                                         </thead>
                                         <tbody>
@@ -198,8 +198,8 @@
                                                     class="class-avatar fw-normal" alt="class-avatar">
                                                     Classe 75
                                                 </th>
-                                                <td class="text-center">15 Febbraio 2021</td>
-                                                <td class="text-center">20%</td>
+                                                <td class="text-center align-middle">15 Feb 2021</td>
+                                                <td class="text-center align-middle">20%</td>
                                                 <td class="text-center align-middle">
                                                     <span class="my_bg-seagreen rounded px-2">Done</span>
                                                 </td>
@@ -214,8 +214,8 @@
                                                     class="class-avatar fw-normal" alt="class-avatar">
                                                     Classe 76
                                                 </th>
-                                                <td class="text-center">16 Febbraio 2021</td>
-                                                <td class="text-center">20%</td>
+                                                <td class="text-center align-middle">16 Feb 2021</td>
+                                                <td class="text-center align-middle">20%</td>
                                                 <td class="text-center align-middle">
                                                     <span class="my_bg-seagreen rounded px-2">Done</span>
                                                 </td>
@@ -230,8 +230,8 @@
                                                     class="class-avatar fw-normal" alt="class-avatar">
                                                     Classe 77
                                                 </th>
-                                                <td class="text-center">17 Febbraio 2021</td>
-                                                <td class="text-center">20%</td>
+                                                <td class="text-center align-middle">17 Feb 2021</td>
+                                                <td class="text-center align-middle">20%</td>
                                                 <td class="text-center align-middle">
                                                     <span class="my_bg-gold rounded px-2">Process</span>
                                                 </td>
@@ -246,8 +246,8 @@
                                                     class="class-avatar fw-normal" alt="class-avatar">
                                                     Classe 78
                                                 </th>
-                                                <td class="text-center">18 Febbraio 2021</td>
-                                                <td class="text-center">20%</td>
+                                                <td class="text-center align-middle">18 Feb 2021</td>
+                                                <td class="text-center align-middle">20%</td>
                                                 <td class="text-center align-middle">
                                                     <span class="my_bg-seagreen rounded px-2">Done</span>
                                                 </td>
@@ -262,8 +262,8 @@
                                                     class="class-avatar fw-normal" alt="class-avatar">
                                                     Classe 79
                                                 </th>
-                                                <td class="text-center">19 Febbraio 2021</td>
-                                                <td class="text-center">20%</td>
+                                                <td class="text-center align-middle">19 Feb 2021</td>
+                                                <td class="text-center align-middle">20%</td>
                                                 <td class="text-center align-middle">
                                                     <span class="my_bg-crimson rounded px-2">Failed</span>
                                                 </td>
@@ -278,8 +278,8 @@
                                                     class="class-avatar fw-normal" alt="class-avatar">
                                                     Classe 80
                                                 </th>
-                                                <td class="text-center">20 Febbraio 2021</td>
-                                                <td class="text-center">20%</td>
+                                                <td class="text-center align-middle">20 Feb 2021</td>
+                                                <td class="text-center align-middle">20%</td>
                                                 <td class="text-center align-middle">
                                                     <span class="my_bg-seagreen rounded px-2">Done</span>
                                                 </td>
@@ -294,8 +294,8 @@
                                                     class="class-avatar fw-normal" alt="class-avatar">
                                                     Classe 81
                                                 </th>
-                                                <td class="text-center">21 Febbraio 2021</td>
-                                                <td class="text-center">20%</td>
+                                                <td class="text-center align-middle">21 Feb 2021</td>
+                                                <td class="text-center align-middle">20%</td>
                                                 <td class="text-center align-middle">
                                                     <span class="my_bg-crimson rounded px-2">Failed</span>
                                                 </td>
@@ -310,8 +310,8 @@
                                                     class="class-avatar fw-normal" alt="class-avatar">
                                                     Classe 82
                                                 </th>
-                                                <td class="text-center">22 Febbraio 2021</td>
-                                                <td class="text-center">20%</td>
+                                                <td class="text-center align-middle">22 Feb 2021</td>
+                                                <td class="text-center align-middle">20%</td>
                                                 <td class="text-center align-middle">
                                                     <span class="my_bg-seagreen rounded px-2">Done</span>
                                                 </td>
