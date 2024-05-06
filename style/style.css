@@ -85,14 +85,10 @@ body{
     width: 18px;
 }
 
-#top-main{
+#my_main{
+    margin-left: 50px;
     width: calc(100vw - 50px);
     margin-top: 50px;
-}
-
-#top-main,
-#bottom-main{
-    margin-left: 50px;
 }
 
 .my_button:hover{
@@ -100,6 +96,11 @@ body{
     color: black;
     
 }
+
+#offcanvasRight{
+    width: 100%;
+}
+
 
 td i{
     width: 15px;
@@ -116,10 +117,13 @@ td,
         width: 100px;
     }
 
-    #top-main,
-    #bottom-main{
-    width: calc(100vw - 100px);
-    margin-left: 100px;
+    #my_main{
+        width: calc(100vw - 100px);
+        margin-left: 100px;
+    }
+
+    #offcanvasRight{
+        width: 40%;
     }
 
 }
